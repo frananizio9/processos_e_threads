@@ -1,7 +1,3 @@
-"""Média de votos: versão com processos vs. versão com threads.
-
-Uso:  python main.py [ficheiro.csv] [--workers N] [--repeticoes R]
-"""
 import argparse
 import os
 import statistics

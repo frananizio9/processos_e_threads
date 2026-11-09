@@ -1,8 +1,6 @@
-"""Abordagem 1: multiprocessing (processos independentes, sem GIL partilhado)."""
 from multiprocessing import Pool
 
 from calculo import combinar, dividir_intervalos, ler_cabecalho, processar_bloco
-
 
 def executar(caminho, n_workers):
     idx = ler_cabecalho(caminho)

@@ -1,8 +1,6 @@
-"""Abordagem 2: multithreading (threads concorrentes no mesmo processo)."""
 from concurrent.futures import ThreadPoolExecutor
 
 from calculo import combinar, dividir_intervalos, ler_cabecalho, processar_bloco
-
 
 def executar(caminho, n_workers):
     idx = ler_cabecalho(caminho)
